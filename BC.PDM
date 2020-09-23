@@ -1,0 +1,100 @@
+[Root]
+Most Recent Package=BIOCLOCK
+
+
+[Package|BIOCLOCK|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Mis Documentos\Mis Programas III\ADI BC\SETUP
+
+[Package|BIOCLOCK|Configure DAO ISAMs]
+Applicable=No
+
+[Package|BIOCLOCK|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|BIOCLOCK|Files Found]
+
+[Package|BIOCLOCK|Files Released]
+
+[Package|BIOCLOCK|Missing Dependency Information]
+
+[Package|BIOCLOCK|Out-of-Date Dependency Information]
+
+[Package|BIOCLOCK|Files Added]
+d:\mis documentos\mis programas iii\adi bc\bc.bmp=
+
+[Package|BIOCLOCK|Files Removed]
+
+[Package|BIOCLOCK|Files In Project]
+D:\Mis Documentos\Mis Programas III\ADI BC\BC.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6ES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Mis Documentos\Mis Programas III\ADI BC\BC.bmp=Yes
+
+[Package|BIOCLOCK|Configure Registry Files]
+Applicable=No
+
+[Package|BIOCLOCK|Configure Remote Servers]
+Applicable=No
+
+[Package|BIOCLOCK|Install Locations]
+D:\Mis Documentos\Mis Programas III\ADI BC\BC.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Mis Documentos\Mis Programas III\ADI BC\BC.bmp=$(AppPath)
+
+[Package|BIOCLOCK|Configure Shared Files]
+Applicable=Yes
+D:\Mis Documentos\Mis Programas III\ADI BC\BC.exe=No
+D:\Mis Documentos\Mis Programas III\ADI BC\BC.bmp=No
+
+[Package|BIOCLOCK|Distribution]
+Type=single
+Size=
+Title=BioClock
+
+[Package|BIOCLOCK|ADIWARE  ]
+Icon1=BC.exe
+Title1=BioClock
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|BIOCLOCK|Package]
+PackageFolder=D:\Mis Documentos\Mis Programas III\ADI BC\SETUP
+ProjectFolder=D:\Mis Documentos\Mis Programas III\ADI BC
+ServerSideCab=
+File1=D:\Mis Documentos\Mis Programas III\ADI BC\SETUP\setup.exe
+File2=D:\Mis Documentos\Mis Programas III\ADI BC\SETUP\Setup.Lst
+File3=D:\Mis Documentos\Mis Programas III\ADI BC\SETUP\BC.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|BIOCLOCK|IconGroups]
+Group0=ADIWARE
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|BIOCLOCK|ADIWARE]
+Icon1=BC.exe
+Title1=BIOCLOCK
+StartIn1=$(AppPath)
+Key1=Icon1
